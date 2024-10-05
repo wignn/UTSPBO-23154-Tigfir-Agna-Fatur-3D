@@ -25,7 +25,7 @@ public class Main {
                 System.out.print("Masukkan password: ");
                 String password = input.nextLine();
 
-                if (!userName.equals("admin") || !password.equals("admin123")) {
+                if (!userName.equals("admin") && !password.equals("admin123")) {
                     System.out.println("Username atau password salah");
                     return;
                 }
